@@ -1,0 +1,19 @@
+For other validation use below keyword and add additional-methods.js plugin
+
+nowhitespace 		: inputName{nowhitespace:true}	denied white space 
+lettersonly 		: inputName{lettersonly:true}  	allow only letter
+alphanumeric 		: inputName{alphanumeric:true} 	allow only alpha, numeric and underscore
+number				: inputName{number:true}  allow only int, float value
+digits				: inputName{digits:true}  allow only int value
+minlength			: inputName{minlength:3} 
+maxlength			: inputName{maxlength:15}
+url 				: inputName{url:true} validate url
+lessThan 			: 
+lessThanEqual		:
+greaterThan 		:
+greaterThanEqual	:
+range				: inputName:{required:true, range:[10,50]} validate value between 10 to 50
+step				: inputName:{required:true, step:10} accept value multple of 10 
+date 				: inputName:{date:true}
+min 				: inputName:{min: 10} allow only greater than value
+max 				: inputName:{max: 25} allow only less than value
